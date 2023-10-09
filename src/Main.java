@@ -38,7 +38,6 @@ public class Main {
         // Print exam scores of full time students
         System.out.println("Printing exam scores of full-time students");
         session.get_exam_scores(students);
-
     }
 
     private static List<String> studentList = new ArrayList<>();
